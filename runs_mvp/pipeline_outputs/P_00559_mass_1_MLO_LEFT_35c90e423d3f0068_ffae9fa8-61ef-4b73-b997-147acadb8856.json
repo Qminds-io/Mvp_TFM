@@ -1,0 +1,20 @@
+{
+  "request_id": "ffae9fa8-61ef-4b73-b997-147acadb8856",
+  "image": "P_00559_mass_1_MLO_LEFT_35c90e423d3f0068.jpg",
+  "image_path": "dataset\\processed_yolo\\images\\val\\P_00559_mass_1_MLO_LEFT_35c90e423d3f0068.jpg",
+  "model_paths": {
+    "detector": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\runs\\detect\\train2\\weights\\best.pt",
+    "classifier": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\runs_mvp\\cls_yolo11s_224_e40_b128\\weights\\best.pt"
+  },
+  "counts": {
+    "total": 0
+  },
+  "final": {
+    "label": "benign",
+    "score": 0.0
+  },
+  "lesions": [],
+  "timing_ms": {
+    "total": 513
+  }
+}

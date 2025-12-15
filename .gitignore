@@ -82,8 +82,7 @@ datasets/
 # =========================================================
 # RUNS / entrenamientos (crudos) - ignorar por defecto
 # =========================================================
-runs/
-runs_mvp/
+
 **/*.cache
 
 # =========================================================
@@ -95,43 +94,7 @@ runs_mvp/
 *.torchscript
 *.mlmodel
 
-# No subir pesos .pt en general
-*.pt
 
-# PERO: sí subir SOLO los best.pt finales que usaste en el TFM
-!runs/detect/train2/weights/best.pt
-!runs_mvp/cls_yolo11s_224_e40_b128/weights/best.pt
-
-# =========================================================
-# Artefactos del TFM (SÍ subir)
-# Guarda aquí tus figuras/tablas finales para el jurado
-# =========================================================
-!artifacts/**
-!artifacts/.gitkeep
-!artifacts/**/*.png
-!artifacts/**/*.jpg
-!artifacts/**/*.jpeg
-!artifacts/**/*.svg
-!artifacts/**/*.csv
-!artifacts/**/*.json
-!artifacts/**/*.md
-
-# =========================================================
-# Documentación y código (SÍ subir)
-# =========================================================
-!README.md
-!LICENSE
-!requirements.txt
-!requirements*.txt
-!pyproject.toml
-!scripts/**
-!src/**
-!notebooks/**
-!docs/**
-
-# =========================================================
-# Secrets (NUNCA)
-# =========================================================
 *.env
 .env.*
 **/secrets.*

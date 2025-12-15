@@ -1,0 +1,20 @@
+{
+  "request_id": "1e071518-eba3-44bc-8bb9-c3e39768abee",
+  "image": "mamografia2.jpg",
+  "image_path": "mamografia2.jpg",
+  "model_paths": {
+    "detector": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\runs\\detect\\train2\\weights\\best.pt",
+    "classifier": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\runs_mvp\\cls_yolo11s_224_e40_b128\\weights\\best.pt"
+  },
+  "counts": {
+    "total": 0
+  },
+  "final": {
+    "label": "benign",
+    "score": 0.0
+  },
+  "lesions": [],
+  "timing_ms": {
+    "total": 474
+  }
+}

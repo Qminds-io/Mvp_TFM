@@ -1,0 +1,77 @@
+{
+  "request_id": "7e9626d8-561e-4bed-aad7-dd986ab3cb76",
+  "image": "mamografia.png",
+  "image_path": "mamografia.png",
+  "model_paths": {
+    "detector": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\runs\\detect\\train2\\weights\\best.pt",
+    "classifier": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\runs_mvp\\cls_yolo11s_224_e40_b128\\weights\\best.pt"
+  },
+  "counts": {
+    "total": 2
+  },
+  "final": {
+    "label": "benign",
+    "score": 0.2329753041267395
+  },
+  "lesions": [
+    {
+      "type": "calcification",
+      "det_conf": 0.5781670808792114,
+      "bbox_xyxy": [
+        746.3731689453125,
+        0.9935470819473267,
+        1210.7484130859375,
+        676.0
+      ],
+      "bbox_padded_xyxy": [
+        691,
+        0,
+        1265,
+        676
+      ],
+      "w_px": 464.375244140625,
+      "h_px": 675.0064529180527,
+      "area_px": 313456.28637031803,
+      "diameter_px": 675.0064529180527,
+      "cls_pred": "benign",
+      "cls_top1_conf": 0.7670246362686157,
+      "prob_malignant": 0.2329753041267395,
+      "diagnosis": "benign",
+      "latency_ms": {
+        "det": 674,
+        "cls": 74
+      }
+    },
+    {
+      "type": "calcification",
+      "det_conf": 0.5351203680038452,
+      "bbox_xyxy": [
+        0.0,
+        0.8616124391555786,
+        594.5348510742188,
+        676.0
+      ],
+      "bbox_padded_xyxy": [
+        0,
+        0,
+        665,
+        676
+      ],
+      "w_px": 594.5348510742188,
+      "h_px": 675.1383875608444,
+      "area_px": 401393.30070297484,
+      "diameter_px": 675.1383875608444,
+      "cls_pred": "benign",
+      "cls_top1_conf": 0.9094269871711731,
+      "prob_malignant": 0.09057298302650452,
+      "diagnosis": "benign",
+      "latency_ms": {
+        "det": 674,
+        "cls": 4
+      }
+    }
+  ],
+  "timing_ms": {
+    "total": 801
+  }
+}

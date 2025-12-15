@@ -1,0 +1,26 @@
+{
+  "n_total_images": 704,
+  "n_with_gt": 704,
+  "n_detected": 325,
+  "n_missed": 379,
+  "detection_rate": 0.4616477272727273,
+  "acc_end_to_end": 0.3196022727272727,
+  "acc_given_detected": 0.6923076923076923,
+  "confusion_matrix": {
+    "benign": {
+      "benign": 167,
+      "malignant": 28
+    },
+    "malignant": {
+      "benign": 72,
+      "malignant": 58
+    }
+  },
+  "paths": {
+    "detector": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\runs\\detect\\train2\\weights\\best.pt",
+    "classifier": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\runs_mvp\\cls_yolo11s_224_e40_b128\\weights\\best.pt",
+    "test_dir": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\dataset\\processed_yolo\\images\\test",
+    "out_dir": "C:\\Users\\segur\\Documents\\UNIR\\TFM\\MVP\\runs_mvp\\pipeline_eval"
+  },
+  "runtime_sec": 39.37
+}
