@@ -1,0 +1,7 @@
+ultralytics
+pydicom
+opencv-python
+numpy
+pandas
+tqdm
+pillow
